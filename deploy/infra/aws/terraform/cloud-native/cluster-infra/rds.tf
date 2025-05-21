@@ -25,7 +25,7 @@ module "cp_rds" {
 
   # All available versions: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_PostgreSQL.html#PostgreSQL.Concepts
   engine         = "postgres"
-  engine_version = "12.18"
+  engine_version = "12.22"
   family         = "postgres12" # DB parameter group
   instance_class = var.rds_instance_type
 
